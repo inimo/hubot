@@ -2,7 +2,7 @@
   "name": "inimo",
   "version": "0.0.0",
   "private": true,
-  "author": "asai <asai.nrv@gmail.com>",
+  "author": "-",
   "description": "A simple helpful robot for your Company",
   "dependencies": {
     "hubot": "^2.18.0",
