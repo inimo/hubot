@@ -15,10 +15,6 @@ module.exports = (robot) ->
   robot.hear /^j (.*)/i, (msg) ->
     translate(msg, 'ja')
 
-  # hoge
-  robot.hear /(w|ｗ)$/i, (msg) ->
-    msg.send 'はいはい、いい歳こいて草はやすんじゃねーお！'
-
   # help
   robot.respond /help$/, (msg) ->
     text = 'hear e - ja -> en\nhear j - en -> ja'
